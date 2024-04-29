@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1.0">
+		
+
+		<title>Fancify My Text</title>
+		<style>
+			fieldset{
+				border: 2px solid #333;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="textInput" rows="4" cols="30"></textarea>
+		</fieldset>
+		
+
+		<!-- Your UI controls go here -->
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="increaseFontSize()">Bigger!</button>
+			<br>
+			<button onclick="handleRadioButtonChange()">FancyShmancy</button>
+			<br>
+			<button onclick="handleRadioButtonChange()">BoringBetty</button>
+			
+			<br>
+			<button onclick="uppercaseAndMoo()">Moo</button>
+		</fieldset>
+		
+		<script src="fancyifymytext.js"></script>
+	</body>
+</html>
